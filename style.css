@@ -1,0 +1,531 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    height: 863px;
+}
+
+.acionimg {
+    width: 30px;
+    height: 30px;
+
+}
+
+.aicon {
+    position: relative;
+    top: 3%;
+    left: 2%;
+    background-color: rgb(0, 126, 251);
+    width: 35px;
+    height: 35px;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+.aicon:hover {
+    background-color: white;
+    transition: all 0.5s ease-in;
+}
+
+.h21 {
+    display: inline-block;
+    position: relative;
+    top: 2%;
+    left: 2%;
+    font-size: 20px;
+}
+
+nav {
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+nav ul {
+    display: flex;
+    position: relative;
+    left: 30%;
+}
+
+nav ul a {
+    position: relative;
+    color: rgb(79, 74, 74);
+    display: flex;
+    text-decoration: none;
+    font-size: large;
+    margin: 20px;
+    font-weight: bolder;
+    transition: all 0.3s ease-in;
+    margin-top: 1px;
+}
+
+nav button {
+    color: white;
+    background-color: rgb(0, 126, 251);
+    width: 100px;
+    height: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    border-color: transparent;
+    border-radius: 20px;
+}
+
+nav button:hover {
+    color: rgb(0, 126, 251);
+    background-color: white;
+    transition: all 0.5s ease-in;
+}
+
+nav a:hover {
+    color: rgb(0, 126, 251);
+    transition: all 0.5s ease-in;
+}
+
+.bannerimg {
+    display: inline-block;
+
+}
+
+.bannerimg img {
+    height: 600px;
+    position: absolute;
+    left: 20%;
+}
+
+.imgarrow {
+    left: 20%;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    opacity: 80%;
+}
+
+.imgarrow2 {
+    top: 60%;
+    left: 75%;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    opacity: 80%;
+}
+
+.name1 {
+    display: inline-block;
+    width: 100px;
+    top: 30%;
+    left: 43%;
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    font-size: 40px;
+}
+
+.cv {
+    display: inline-block;
+    top: 55%;
+    background-color: rgb(0, 126, 251);
+    left: 47%;
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    border-color: transparent;
+    border-radius: 15px;
+}
+
+.cv,
+a {
+    color: white;
+    font-size: 15px;
+
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cv:hover {
+    background-color: white;
+    transition: all 0.5s ease-in;
+}
+
+.cv,
+a:hover {
+    color: rgb(0, 126, 251);
+    transition: all 0.5s ease-in;
+}
+
+.mern {
+    display: inline-block;
+    font-size: 30px;
+    top: 38%;
+    left: 38%;
+    font-weight: bold;
+    position: absolute;
+    width: 500px;
+    height: 150px;
+}
+
+.making {
+    display: inline-block;
+    font-size: 30px;
+    top: 46%;
+    left: 40%;
+    font-weight: bold;
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    color: rgb(0, 126, 251);
+}
+
+.headmiddle {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+.about {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    text-decoration: underline;
+}
+
+.about2 {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-size: 20px;
+    color: rgb(56, 53, 53);
+}
+
+.aboutp {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 350px;
+    color: white;
+    text-align: justify;
+    font-weight: 30%;
+}
+
+.aboutarrow {
+    position: absolute;
+    top: 67%;
+    left: 22%;
+    width: 32px;
+    height: 32px;
+}
+
+.aboutintro1 {
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: all 0.5s ease-in;
+}
+
+.aboutintro1:hover {
+    opacity: 80%;
+    transform: scale(1.04);
+    border-radius: 20px;
+}
+
+.aboutintro2 {
+    position: absolute;
+    top: 23%;
+    left: 70%;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: all 0.5s ease-in;
+}
+
+.aboutintro2:hover {
+    opacity: 80%;
+    transform: scale(1.04);
+    border-radius: 20px;
+}
+
+.headmiddle div {
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    width: 430px;
+    height: 380px;
+    background-color: rgb(44, 41, 41);
+    border-radius: 20px;
+}
+
+.Projects {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 720px;
+    position: relative;
+}
+
+.Projectsheading {
+    position: absolute;
+    top: 5%;
+    left: 47%;
+    color: rgb(136, 129, 129);
+}
+
+.Projectsheading:hover {
+    color: rgb(0, 126, 251);
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+
+.row {
+    position: relative;
+    top: 15%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.col {
+    height: 200px;
+    width: 500px;
+    margin-top: 10px;
+    background: linear-gradient(rgb(0, 0, 0), rgb(139, 139, 139));
+    border-radius: 20px;
+}
+
+.col>img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.col:hover {
+    background: linear-gradient(rgb(80, 78, 78), rgb(220, 228, 243));
+    transition: all 0.5s ease-in;
+    opacity: 80%;
+    transform: scale(1.07);
+    border-radius: 20px;
+}
+
+.colbutton {
+    position: relative;
+    top: 1%;
+    left: 14%;
+    background-color: rgb(60, 155, 250);
+    width: 100px;
+    height: 40px;
+    border-color: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.github {
+    position: relative;
+    top: 1%;
+    left: 48%;
+    font-size: 17px;
+}
+
+.col>.githubimg {
+    position: relative;
+    top: 6%;
+    left: 45%;
+    width: 40px;
+    height: 40px;
+}
+
+.Service {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+.Certificate {
+    height: 300px;
+    width: 600px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    box-shadow: 8px 8px 8px 3px rgb(85, 83, 83);
+    border-radius: 20px;
+    display: flex;
+}
+
+.Certificate>img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.Certificate>p {
+    padding: 20px;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.Certificate:hover {
+    transition: all 0.3s ease-in;
+    transform: translateY(-14px);
+    box-shadow: 8px 8px 8px 3px rgb(157, 205, 255);
+}
+
+#hack:hover {
+    transition: all 0.3s ease-in;
+    transform: translateY(-14px);
+    box-shadow: 8px 8px 8px 3px rgb(105, 228, 29);
+}
+
+#violet:hover {
+    transition: all 0.3s ease-in;
+    transform: translateY(-14px);
+    box-shadow: 8px 8px 8px 3px rgb(158, 29, 228);
+}
+
+.colservice {
+    height: 400px;
+    width: 300px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    box-shadow: 8px 8px 8px 3px rgb(85, 83, 83);
+    border-radius: 20px;
+
+}
+
+.colservice>img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.colservice>p {
+    text-align: justify;
+
+}
+
+.colservice:hover {
+    transition: all 0.3s ease-in;
+    transform: translateY(-14px);
+    box-shadow: 8px 8px 8px 3px rgb(157, 205, 255);
+}
+
+.Contact {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.Contact>img {
+    position: absolute;
+    top: 5%;
+    left: 43%;
+    width: 30px;
+    height: 30px;
+}
+
+.rowinput {
+    position: relative;
+    top: 15%;
+    margin-left: 220px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.rowinput>input {
+    width: 300px;
+    height: 30px;
+    background-color: black;
+    border-color: transparent;
+    color: white;
+}
+
+.rowinput>input::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+textarea::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+textarea {
+    position: relative;
+    top: 20%;
+    left: 48%;
+    background-color: black;
+    border-color: transparent;
+    color: white;
+}
+
+.Contact>.inst {
+    position: absolute;
+    top: 75%;
+    left: 47%;
+    width: 40px;
+    height: 40px;
+}
+
+.Contact>.link {
+    position: absolute;
+    top: 75%;
+    left: 51%;
+    width: 40px;
+    height: 40px;
+}
+
+.Contact>.git {
+    position: absolute;
+    top: 75%;
+    left: 55%;
+    width: 40px;
+    height: 40px;
+}
+
+.Contact>.send {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    color: white;
+    background-color: rgb(0, 126, 251);
+    width: 100px;
+    height: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    border-color: transparent;
+    border-radius: 20px;
+}
+
+.Contact>.send:hover {
+    color: rgb(0, 126, 251);
+    background-color: white;
+    transition: all 0.5s ease-in;
+}
